@@ -24,3 +24,6 @@ setup(name='pyAudioAnalysis',
       zip_safe=False,
       install_requires=requirements,
       )
+
+
+

@@ -540,7 +540,7 @@ def phormants(x, sampling_rate):
 """ Windowing and feature extraction """
 
 
-def feature_extraction(signal, sampling_rate, window, step, deltas=True):
+def feature_extraction(signal, sampling_rate, window, step, deltas=False):
     """
     This function implements the shor-term windowing process.
     For each short-term window a set of features is extracted.
